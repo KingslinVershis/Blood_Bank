@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Josefin+Sans:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Kanit', sans-serif;
+}
+body{
+    position: relative;
+}
+.top{
+    height: 110px;
+    background-color: #222f3e;
+    padding: 0px 20px;
+}
+.top img{
+    height: 75px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left:20px;
+}
+.top button{
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    padding:10px 25px;
+    font-size:20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.navbarr{
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #ff3838;
+}
+.navbarr ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 0px;
+}
+.navbarr ul{
+    display: flex;
+    list-style-type: none;
+    margin-left:50px;
+    padding-top:10px;
+    font-weight: 300;
+}
+.navbarr ul li{
+    margin-left:30px;
+}
+.navbarr ul li a:hover{
+    color:cyan;
+}
+.row h3{
+    margin-top: 10px;
+    
+}
+.row .left{
+    margin-left: -20px;
+}
+.row .col-lg-2{
+    margin-left: 40px;
+}
+.row .col-lg-2 img{
+    height: 130px;
+}
+#table1,.head1{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#table2,.head2{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#table3,.head3{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#table4,.head4{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#table5,.head5{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mainhead{
+    text-align: center;
+    background-color: #222f3e;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+#table1{
+    margin-top: 30px;
+    position: relative;
+    width: 95%;
+    display:none;
+    border: none;
+    margin-left: 30px;
+}
+#green{
+    color:white;
+    background-color: green;
+    padding:3px;
+}
+#red{
+    color:white;
+    background-color: red;
+    padding:3px;
+}
+#table2{
+    margin-top: 30px;
+    position: relative;
+    width: 60%;
+    border: none;
+    left: 330px;
+    display: none;
+}
+#table3{
+    margin-top: 30px;
+    position: relative;
+    width: 35%;
+    border: none;
+    left: 500px;
+    display: none;
+}
+#table4{
+    margin-top: 30px;
+    position: relative;
+    width: 75%;
+    border: none;
+    left: 220px;
+    display: none;
+}
+#table5{
+    margin-top: 30px;
+    position: relative;
+    width: 30%;
+    border: none;
+    left: 490px;
+    display: none;
+}
+.space{
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 430px;
+    background-color: #222f3e;
+    margin-top: 40px;
+}
+.foot{
+    width: 80%;
+    margin-left: 130px;
+    height:430px;
+    margin-top: 80px;
+}
+.foot img{
+    height: 100px;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.foot .span1,.span2,.span3{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px;
+    top: 0px;
+    left: 80px;
+    position: relative;
+    color: white;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot i{
+    padding: 0px 10px;
+    margin-left: 80px;
+    margin-top: 30px;
+    transition-property: color;
+    transition-duration: 0.7s;
+    transition-timing-function:ease;
+    color:black;
+    cursor: pointer;
+}
+.foot i:hover{
+    color: white;
+    transition: ease-in;
+}
+.foot .copy{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+.foot .copy span{
+    color:#ff3838;
+}
